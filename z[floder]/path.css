@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple");
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000;
+
+}
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365FA0;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,204,0); stroke: rgb(255, 255, 255);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,204,0); stroke: rgb(255, 255, 255); }
+	80%  {fill: rgba(72,138,204,0); stroke: rgb(255, 255, 255); stroke-width: 3; }
+	100% {
+		fill: rgb(255, 255, 255); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 1), 
+    0px 0px 10px rgba(255, 255, 255, 1), 
+0px 0px 15px rgba(255, 255, 255, 1),
+0px 0px 20px rgb(54, 247, 1),
+0px 0px 30px rgb(56, 255, 1),
+0px 0px 40px rgb(54, 248, 0),
+0px 0px 55px rgb(54, 250, 0),
+0px 0px 75px rgb(55, 255, 0);
+	}
+}
+.wrapper {background-color: #000000};
+ 
+.topnav {
+    overflow: hidden;
+    background-color: #000000;
+    cursor:pointer;
+  }
+  
+  .topnav a {
+    float: left;
+    color:rgb(255, 255, 255);;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  
+  }
+  
+  .topnav a:hover {
+    background-color:  rgb(255, 255, 255);
+    color: black;
+  }
+  .gh{
+    font-size: 32px;
+    font-family: 'Courier New', Courier,monospace;
+    color: aliceblue;
+    text-align: center;
+  }
+  .gh1{
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(43, 182, 50);
+    text-align: center;
+  }
+  .gh2{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-align: center;
+  }
+  .gh3{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-align: center;
+  }
+  .sch{
+    background-image: url(vid,pic/ghss.jpg);
+    background-size: cover;
+    padding: 20px;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text ;
+    border: 4px solid white;
+    animation: schl 5s alternate infinite 0s;
+    border-radius: 30px;
+  }
+  @keyframes schl{
+    0%{
+      
+    }
+  }
+  .clg1{
+    font-size: 32px;
+    font-family: 'Courier New', Courier,monospace;
+    color: aliceblue;
+    text-align: center;
+  }
+  .clg3{
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(43, 182, 50);
+    text-align: center;
+  }
+  .clg2{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-align: center;
+  }
+  .clg4{
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+    color: aliceblue;
+    text-align: center;
+  }
+  .clg{
+    background-image: url(vid,pic/uni.webp);
+    background-size: cover;
+    padding: 20px;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text ;
+    border: 4px solid white;
+    animation: schl 5s alternate infinite 0s;
+    border-radius: 30px;
+  }
+  #my{
+    color: aliceblue;
+    font-size: 32px;
+    font-family: "Sofia", sans-serif;
+    text-align: center;
+  }
+  .onl{
+    font-family:'Courier New', Courier, monospace ;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+    background-image: url(vid,pic/download.png);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip:text ;
+    animation: tx 9s alternate  0s linear;
+    border: 4px solid #ffffff;
+    border-radius:20px;
+  }
+  @keyframes tx{
+    0% {
+     font-size: 0px;
+    }
+    60%{
+      font-size: 20px;
+    }
+  100% { 
+       font-size: 32px;
+        }
+  }
